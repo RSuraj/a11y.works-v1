@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swup Test</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="row">
+        <div class="col-md-7 hero-container">
+          <div class="hero">
+            <div class="container">
+              <nav class="header">
+                <img class="logo" src="img/logo.png" alt="logo" />
+                <!-- <ul class="main-menu">
+                  <li>What</li>
+                  <li>How</li>
+                  <li>When</li>
+                </ul> -->
+              </nav>
+              <div class="main-content">
+                <h2>Let's make the web</h2>
+                <h1>more inclusive</h1>
+                <button class="main-cta">
+                  Find out How<span class="ml-2">→</span>
+                </button>
+              </div>
+              <div class="footer">
+                <div class="left-section">
+                  <ul>
+                    <li>About</li>
+                    <li>Contact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 fact-container">
+          <div class="fact" id="fact-1">
+            <h5 class="page-count">01/04</h5>
+            <div class="fact-body">
+              <h3>01</h3>
+              <p>
+                Some text that really holds the attention of the reader and
+                helps them connect with the core of what the website aims to
+                convey.
+              </p>
+              <button class="learn-more">
+                Learn More<span class="ml-2">→</span>
+              </button>
+            </div>
+            <div class="slider-controls">
+              <button class="prev">Previous</button>
+              <button class="next">Next</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="fact" id="fact-2">
+          <h5 class="page-count">01/04</h5>
+          <div class="fact-body">
+            <h3>01</h3>
+            <p>
+              Some text that really holds the attention of the reader and helps
+              them connect with the core of what the website aims to convey.
+            </p>
+            <button class="learn-more">
+              Learn More<span class="ml-2">→</span>
+            </button>
+          </div>
+          <div class="slider-controls">
+            <button class="prev">Previous</button>
+            <button class="next">Next</button>
+          </div>
+        </div>
+        <div class="slider-img"></div>
+      </div>
+      <div class="slider"></div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="js/animations-index.js"></script>
+  </body>
+</html>
